@@ -48,5 +48,12 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, FindTheBomb.class);
             startActivity(intent);
         });
+
+
+        Button lessThan100Btn = findViewById(R.id.less_than_100_btn);
+        lessThan100Btn.setOnClickListener(v -> {
+            Intent intent = new Intent(this, LessThan100.class);
+            startActivity(intent);
+        });
     }
 }

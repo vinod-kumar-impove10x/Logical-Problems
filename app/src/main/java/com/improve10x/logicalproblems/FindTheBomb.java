@@ -31,7 +31,7 @@ public class FindTheBomb extends AppCompatActivity {
             String result = "";
             String lowerCaseText = text.toLowerCase();
             if (lowerCaseText.contains("bomb")) {
-                result = "DUCK";
+                result = "DUCK!";
             } else {
                 result = "Relax, there’s no bomb.";
             }

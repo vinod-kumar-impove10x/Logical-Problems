@@ -79,4 +79,16 @@
         app:layout_constraintEnd_toEndOf="@+id/equality_of3_values_btn"
         app:layout_constraintStart_toStartOf="@+id/equality_of3_values_btn"
         app:layout_constraintTop_toBottomOf="@+id/equality_of3_values_btn" />
+
+    <Button
+        android:id="@+id/less_than_100_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00ACC1"
+        android:text="Less Than 100"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/find_the_bomb_btn"
+        app:layout_constraintStart_toStartOf="@+id/find_the_bomb_btn"
+        app:layout_constraintTop_toBottomOf="@+id/find_the_bomb_btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
