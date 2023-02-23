@@ -42,5 +42,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, EqualityOf3Values.class);
             startActivity(intent);
         });
+
+        Button findTheBombBtn = findViewById(R.id.find_the_bomb_btn);
+        findTheBombBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(this, FindTheBomb.class);
+            startActivity(intent);
+        });
     }
 }
