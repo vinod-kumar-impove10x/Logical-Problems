@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.improve10x.logicalproblems.databinding.ActivityFindTheBombBinding;
 
-public class FindTheBomb extends AppCompatActivity {
+public class FindTheBombActivity extends AppCompatActivity {
     private ActivityFindTheBombBinding binding;
 
     @Override

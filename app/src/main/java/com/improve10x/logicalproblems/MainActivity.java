@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
 
         Button divisibleBtn = findViewById(R.id.divisible_btn);
         divisibleBtn.setOnClickListener(v -> {
-            Intent intent = new Intent(this, IsDivisibleByFive.class);
+            Intent intent = new Intent(this, IsDivisibleByFiveActivity.class);
             startActivity(intent);
         });
 
         Button findDiscountBtn = findViewById(R.id.find_dicount_btn);
         findDiscountBtn.setOnClickListener(v -> {
-            Intent intent = new Intent(this, FindTheDiscount.class);
+            Intent intent = new Intent(this, FindTheDiscountActivity.class);
             startActivity(intent);
         });
 
@@ -39,20 +39,26 @@ public class MainActivity extends AppCompatActivity {
 
         Button equalityOf3ValuesBtn = findViewById(R.id.equality_of3_values_btn);
         equalityOf3ValuesBtn.setOnClickListener(v -> {
-            Intent intent = new Intent(this, EqualityOf3Values.class);
+            Intent intent = new Intent(this, EqualityOf3ValuesActivity.class);
             startActivity(intent);
         });
 
         Button findTheBombBtn = findViewById(R.id.find_the_bomb_btn);
         findTheBombBtn.setOnClickListener(v -> {
-            Intent intent = new Intent(this, FindTheBomb.class);
+            Intent intent = new Intent(this, FindTheBombActivity.class);
             startActivity(intent);
         });
 
 
         Button lessThan100Btn = findViewById(R.id.less_than_100_btn);
         lessThan100Btn.setOnClickListener(v -> {
-            Intent intent = new Intent(this, LessThan100.class);
+            Intent intent = new Intent(this, LessThan100Activity.class);
+            startActivity(intent);
+        });
+
+        Button fizzBuzzBtn = findViewById(R.id.fizz_buzz_btn);
+        fizzBuzzBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(this, FizzBuzzActivity.class);
             startActivity(intent);
         });
     }

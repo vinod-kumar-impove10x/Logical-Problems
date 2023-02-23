@@ -13,21 +13,28 @@
         android:theme="@style/Theme.LogicalProblems"
         tools:targetApi="31">
         <activity
-            android:name=".LessThan100"
+            android:name=".FizzBuzzActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FindTheBomb"
+            android:name=".LessThan100Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".EqualityOf3Values"
+            android:name=".FindTheBombActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EqualityOf3ValuesActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -41,14 +48,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".FindTheDiscount"
+            android:name=".FindTheDiscountActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".IsDivisibleByFive"
+            android:name=".IsDivisibleByFiveActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

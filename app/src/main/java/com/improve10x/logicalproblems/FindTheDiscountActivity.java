@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.improve10x.logicalproblems.databinding.ActivityFindTheDiscountBinding;
 
-public class FindTheDiscount extends AppCompatActivity {
+public class FindTheDiscountActivity extends AppCompatActivity {
     private ActivityFindTheDiscountBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

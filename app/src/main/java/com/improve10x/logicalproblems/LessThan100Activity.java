@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.improve10x.logicalproblems.databinding.ActivityLessThan100Binding;
 
-public class LessThan100 extends AppCompatActivity {
+public class LessThan100Activity extends AppCompatActivity {
     private ActivityLessThan100Binding binding;
 
     @Override
@@ -27,7 +27,6 @@ public class LessThan100 extends AppCompatActivity {
             binding.resultTxt.setText(String.valueOf(result));
         });
     }
-
 
     public  static boolean isLessThan100(int a, int b) {
         boolean result = false;

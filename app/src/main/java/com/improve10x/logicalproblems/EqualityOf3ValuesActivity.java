@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.improve10x.logicalproblems.databinding.ActivityEqulityOf3ValuesBinding;
 
-public class EqualityOf3Values extends AppCompatActivity {
+public class EqualityOf3ValuesActivity extends AppCompatActivity {
 
     private ActivityEqulityOf3ValuesBinding binding;
 
