@@ -61,5 +61,17 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, FizzBuzzActivity.class);
             startActivity(intent);
         });
+
+        Button minutesToSecondsBtn = findViewById(R.id.minutes_to_seconds_btn);
+        minutesToSecondsBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(this, MinutesToSecondsActivity.class);
+            startActivity(intent);
+        });
+
+        Button nameGreetingBtn = findViewById(R.id.name_greeting_btn);
+        nameGreetingBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(this, NameGreetingActivity.class);
+            startActivity(intent);
+        });
     }
 }
