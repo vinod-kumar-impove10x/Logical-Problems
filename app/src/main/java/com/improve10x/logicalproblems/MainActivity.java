@@ -73,5 +73,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, NameGreetingActivity.class);
             startActivity(intent);
         });
+
+        Button twoMakesTenBtn = findViewById(R.id.two_makes_ten_btn);
+        twoMakesTenBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(this, TwoMakesTenActivity.class);
+            startActivity(intent);
+        });
     }
 }
